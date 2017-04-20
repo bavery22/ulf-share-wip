@@ -1,0 +1,4 @@
+SANITY_VERSION 1
+TMPDIR /big/src/openwrt/poky-RUN/build/tmp
+SSTATE_DIR /YP_CACHE/sstate-cache
+NATIVELSBSTRING ubuntu-14.04

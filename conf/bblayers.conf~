@@ -1,0 +1,15 @@
+# POKY_BBLAYERS_CONF_VERSION is increased each time build/conf/bblayers.conf
+# changes incompatibly
+POKY_BBLAYERS_CONF_VERSION = "2"
+
+BBPATH = "${TOPDIR}"
+BBFILES ?= ""
+
+BBLAYERS ?= " \
+  /big/src/openwrt/poky/meta \
+  /big/src/openwrt/poky/meta-poky \
+  /big/src/openwrt/poky/meta-yocto-bsp \
+  /big/src/openwrt/poky-RUN/build/meta-nodejs \
+  /big/src/openwrt/poky-RUN/build/meta-openwrt \
+  /big/src/openwrt/poky-RUN/build/meta-openembedded/meta-oe \
+  "
