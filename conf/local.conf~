@@ -237,3 +237,5 @@ PACKAGECONFIG_append_pn-nativesdk-qemu = " sdl"
 CONF_VERSION = "1"
 
 #IMAGE_INSTALL_append=" ubus "
+
+MACHINE = "qemux86-64"

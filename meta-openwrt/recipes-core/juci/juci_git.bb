@@ -14,10 +14,10 @@ SRC_URI += "file://0001-juci-pin-grunt-to-0.4.1-for-grunt-angular-gettext.patch"
 S = "${WORKDIR}/git"
 
 inherit npm-install
-
-NPM_INSTALL_append = " uglify-js"
-#DEPENDS += "jucid lua5.1 grunt-cli-native"
-DEPENDS += "jucid lua5.1 "
+#NPM_INSTALL_FLAGS_append=" -g "
+NPM_INSTALL_append = "uglify-js"
+DEPENDS += "jucid lua5.1 grunt-cli-native "
+#DEPENDS += "jucid lua5.1 "
 
 do_compile() {
 	oe_runmake node_modules

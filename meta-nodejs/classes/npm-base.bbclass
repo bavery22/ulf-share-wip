@@ -15,7 +15,7 @@ NPM_CACHE_DIR = "${TMPDIR}/npm_cache/${PF}"
 NPM_HOME_DIR = "${TMPDIR}/npm_home/${PF}"
 NPM_ARCH ?= "${@nodejs_map_dest_cpu(d.getVar('TARGET_ARCH', True), d)}"
 NPM_LD ?= "${CXX}"
-NPM_FLAGS ?= ""
+NPM_FLAGS ?= "--verbose"
 
 NPM_FLAGS_append_class-nativesdk = " --unsafe-perm"
 

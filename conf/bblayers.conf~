@@ -12,4 +12,7 @@ BBLAYERS ?= " \
   /big/src/openwrt/poky-RUN/build/meta-nodejs \
   /big/src/openwrt/poky-RUN/build/meta-openwrt \
   /big/src/openwrt/poky-RUN/build/meta-openembedded/meta-oe \
+  /big/src/openwrt/poky-RUN/build/meta-openembedded/meta-networking \
+  /big/src/openwrt/poky-RUN/build/meta-openembedded/meta-python \
+  /big/src/openwrt/poky-RUN/build/meta-openembedded/meta-nodejs-contrib \
   "
